@@ -1,6 +1,6 @@
 import bcrypt
 
-USER_DATA_FILE = "users.txt"
+USER_DATA_FILE = "DATA/users.txt"
 
 def hash_password(plain_text_pass):
     pass_bytes = plain_text_pass.encode('utf-8')
